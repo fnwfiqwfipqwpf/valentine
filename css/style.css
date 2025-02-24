@@ -4,7 +4,9 @@ body {
   font-size: 14px;
   line-height: 18px;
   color: #000000;
-  background: #ffffff url("../img/background.jfif") no-repeat 50% 0;
+  background: #ffffff url("../img/background.jfif") no-repeat;
+  background-size: cover;
+
 }
 
 h1 {
@@ -38,8 +40,8 @@ h2 {
 /* Add a rule for the vip class here */
 .vip {
   border-color: #ff5a26;
-  color: #000000
-  }
+  color: #000000;
+}
 
 .container {
   width: 480px;
@@ -67,8 +69,8 @@ h2 {
 
 .feature-kitten {
   padding-top: 60px;
-  width:50px;
-  background-image: url("../img/heartheart.png")  ;
+  width: 50px;
+  background-image: url("../img/heartheart.png");
 }
 
 .feature-cat {
@@ -86,35 +88,48 @@ h2 {
   list-style: none;
 }
 
+
+.wishes {
+  margin-top: 30px;
+  text-align: center;
+}
+/*Підвал сайту з кнопкою купівлі 🧡*/
 .site-footer {
   display: flex;
   justify-content: space-between;
-  color: #999999;}
-  .wishes {
-    margin-top: 30px;
-    text-align: center;
+  color: #999999;
 }
-.wishes{
-  margin-top:100px
+.site-footer p {
+  background-color: #ffe2e2;
+  padding: 10px 20px;
+  border-radius: 0px 10px;
+  border: 1px solid #ff5a26;
+  cursor: pointer;
+}
+.site-footer p:last-child {
+  cursor: help;
+}
+/*Секція випадкових побажань*/
+
+.wishes {
+  margin-top: 100px;
 }
 
 #Wishes_btn {
-    background: #ff5a26;
-    color: #ffc5b3;
-    border: 5px solid #ffc5b3;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 43px;
-    cursor: pointer;
-    text-align: center;
+  background: #ff5a26;
+  color: #ffc5b3;
+  border: 5px solid #ffc5b3;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 43px;
+  cursor: pointer;
+  text-align: center;
 }
 
 #p-love-wishes {
-    height: 150px;
-    font-size: 36px;
-    line-height: 40px;
-    color: #ff5a26;
-    text-align: justify;
+  height: 150px;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ff5a26;
+  text-align: justify;
 }
-
-
